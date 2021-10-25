@@ -11,16 +11,15 @@
             <button onclick="startGame()">Start</button>
         </div>
         <div id="GameView">
-            <div class="game">
-                <img id="TestImage" />
-                <div class="buttons">
-                    <button>Blast</button>
-                    <button>Pass</button>
-                </div>
+            <img id="TestImage" />
+            <div class="buttons">
+                <button onclick="submit(0)">Blast</button>
+                <button onclick="submit(1)">Pass</button>
             </div>
         </div>
         <div id="Review">
-
+            <p>Score: <span id="Score"></span></p>
+            <button onclick="startGame()">Reset</button>
         </div>
         <script src="main.js"></script>
     </body>
