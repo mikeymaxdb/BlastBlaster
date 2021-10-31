@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #bac;
+    background-color: #000;
     margin: 0;
 }
 
@@ -48,6 +48,7 @@ body > div {
 #GameView img {
     display: block;
     width: 23rem;
+    border-radius: 50%;
 }
 
 #GameView .buttons {
