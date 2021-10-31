@@ -1,6 +1,6 @@
-const NUM_HEALTHY = 5
-const NUM_BLAST = 5
-const NUM_ROUNDS = 3
+const NUM_HEALTHY = 40
+const NUM_BLAST = 10
+const NUM_ROUNDS = 10
 
 const rotations = [
     'rotate0',
